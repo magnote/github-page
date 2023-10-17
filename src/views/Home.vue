@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    欢迎欢迎,我是主页,没啥用,点点上面的菜单吧
   </div>
 </template>
 

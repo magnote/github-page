@@ -1,30 +1,41 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="page">
+    <Header></Header>
+    <SiderBar class="side-bar"></SiderBar>
+    <div class="pages">
+      <router-view/>
+    </div>
   </div>
-  <router-view/>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script setup>
+  import Header from '@/components/header.vue'; 
+  import SiderBar from '@/components/sider-bar.vue'; 
+
+</script>
+
+
+
+<style scoped>
+.page {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
-#nav {
-  padding: 30px;
+.side-bar {
+  position: absolute;
+  top: 70px;
+  bottom: 0;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+
+.pages {
+  position: absolute;
+  top: 80px;
+  left: 190px;
+  bottom: 0;
+  right: 0;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
