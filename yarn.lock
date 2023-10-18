@@ -2772,6 +2772,21 @@
   optionalDependencies:
     "fsevents" "~2.3.2"
 
+"chokidar@>=3.0.0 <4.0.0":
+  "integrity" "sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw=="
+  "resolved" "https://registry.npmmirror.com/chokidar/-/chokidar-3.5.3.tgz"
+  "version" "3.5.3"
+  dependencies:
+    "anymatch" "~3.1.2"
+    "braces" "~3.0.2"
+    "glob-parent" "~5.1.2"
+    "is-binary-path" "~2.1.0"
+    "is-glob" "~4.0.1"
+    "normalize-path" "~3.0.0"
+    "readdirp" "~3.6.0"
+  optionalDependencies:
+    "fsevents" "~2.3.2"
+
 "chownr@^1.1.1":
   "integrity" "sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg=="
   "resolved" "https://registry.npmmirror.com/chownr/-/chownr-1.1.4.tgz"
@@ -4914,6 +4929,11 @@
   "integrity" "sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg=="
   "resolved" "https://registry.npmmirror.com/ignore/-/ignore-4.0.6.tgz"
   "version" "4.0.6"
+
+"immutable@^4.0.0":
+  "integrity" "sha512-fsXeu4J4i6WNWSikpI88v/PcVflZz+6kMhUfIwc5SY+poQRPnaf5V7qds6SUyUN3cVxEzuCab7QIoLOQ+DQ1wA=="
+  "resolved" "https://registry.npmmirror.com/immutable/-/immutable-4.3.4.tgz"
+  "version" "4.3.4"
 
 "import-cwd@^2.0.0":
   "integrity" "sha512-Ew5AZzJQFqrOV5BTW3EIoHAnoie1LojZLXKcCQ/yTRyVZosBhK1x1ViYjHGf5pAFOq8ZyChZp6m/fSN7pJyZtg=="
@@ -7492,6 +7512,15 @@
   "resolved" "https://registry.npmmirror.com/safer-buffer/-/safer-buffer-2.1.2.tgz"
   "version" "2.1.2"
 
+"sass@^1.69.4":
+  "integrity" "sha512-+qEreVhqAy8o++aQfCJwp0sklr2xyEzkm9Pp/Igu9wNPoe7EZEQ8X/MBvvXggI2ql607cxKg/RKOwDj6pp2XDA=="
+  "resolved" "https://registry.npmmirror.com/sass/-/sass-1.69.4.tgz"
+  "version" "1.69.4"
+  dependencies:
+    "chokidar" ">=3.0.0 <4.0.0"
+    "immutable" "^4.0.0"
+    "source-map-js" ">=0.6.2 <2.0.0"
+
 "sax@~1.2.4":
   "integrity" "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
   "resolved" "https://registry.npmmirror.com/sax/-/sax-1.2.4.tgz"
@@ -7832,7 +7861,7 @@
   "resolved" "https://registry.npmmirror.com/source-list-map/-/source-list-map-2.0.1.tgz"
   "version" "2.0.1"
 
-"source-map-js@^1.0.2":
+"source-map-js@^1.0.2", "source-map-js@>=0.6.2 <2.0.0":
   "integrity" "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw=="
   "resolved" "https://registry.npmmirror.com/source-map-js/-/source-map-js-1.0.2.tgz"
   "version" "1.0.2"
