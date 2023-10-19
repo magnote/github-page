@@ -34,7 +34,7 @@ jobs:
           node-version: 18
 
       # 3 安装依赖
-      - run: npm run clean:cache
+      - run: npm run install
       
       # 4 构建项目 (构建文档)
       - run: npm run docs:build:oneKey
